@@ -10,7 +10,7 @@
 
 */
 
-@keyframes scaling{
+@keyframes scaling {
   from {
     transform: scale(1);
   }
@@ -139,11 +139,6 @@
   max-block-size: 38px;
 }
 
-.card__icon-button {
-  background-color: inherit;
-  border: none;
-}
-
 .button {
   background-color: transparent;
   border: 2px solid var(--main-color);
@@ -181,6 +176,7 @@
 }
 
 .card__icon-button {
+  background-color: transparent;
   border: 2px solid transparent;
   transition: border 0.3s ease;
 }
@@ -254,7 +250,6 @@
 .like-icon.is-liked .sparks {
   animation: opacity-changing 0.3s ease-in 1 0.3s;
 }
-
 
 .like-icon .contour {
   transition: fill 0.1s linear;
@@ -354,7 +349,7 @@
 }
 
 .first-sprint_start {
-  filter: contrast(115%);
+  filter: grayscale(0.85);
 }
 
 .first-sprint_end {
