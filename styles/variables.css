@@ -11,6 +11,20 @@
     /*Отступы*/
     --header-padding-block: clamp(120px, 15vh, 128px);
 
-    /*Ширина секций*/
+    /*Размеры*/
     --section-width: clamp(375px, 48.62vw, 700px);
+    --img-height: clamp(375px, 48.6vw, 700px);
+
+    /*Цвета*/
+    --main-color: #000;
+    --bg-color: #fff;
+    --contour-color: #000;
+    --animation-fill-color: #f00;
+    --icon-core-color: #fff;
+
+    /*Фон страницы*/
+    --bg-image: 
+        repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+        linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
 }
